@@ -41,5 +41,51 @@
     color: orangered;
 }
 
+/* contenido central */
+#slider{
+    width: 550px;
+    height: 500px;
+    background-color: #cccc;
+    display: block;
+    margin: 50px 15px 15px 28px;
+    padding: 20px;
+    float: left;
+}
+
+#slider > h2{
+    display: block;
+    margin: 2px;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+#slider > p{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+#slider ul{
+    width: 550px;
+    height: 303px;
+    display: flex;
+    padding: 0px;
+}
+
+#slider ul > li{
+    height: 303px;
+    width: 542px;
+    list-style: none;
+    overflow: hidden;
+    background-color: black;
+}
+
+#slider ul > li > img{
+    height: 300px;
+    width: 210px;
+    display: block;
+}
+
 
 
